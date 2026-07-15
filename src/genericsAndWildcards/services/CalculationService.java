@@ -1,6 +1,5 @@
-package generics.services;
+package genericsAndWildcards.services;
 
-import java.util.Comparator;
 import java.util.List;
 
 public class CalculationService<T> {

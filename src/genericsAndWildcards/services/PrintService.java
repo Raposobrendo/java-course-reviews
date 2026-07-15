@@ -1,4 +1,4 @@
-package generics.services;
+package genericsAndWildcards.services;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,9 +1,7 @@
-package generics.application;
+package genericsAndWildcards.application;
 
-import generics.services.PrintService;
+import genericsAndWildcards.services.PrintService;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
 public class Generics1 {

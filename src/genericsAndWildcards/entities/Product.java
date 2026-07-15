@@ -1,6 +1,4 @@
-package generics.entities;
-
-import java.util.Objects;
+package genericsAndWildcards.entities;
 
 public class Product implements Comparable<Product>{
 
