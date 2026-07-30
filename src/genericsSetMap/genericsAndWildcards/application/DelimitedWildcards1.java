@@ -1,8 +1,8 @@
-package genericsAndWildcards.application;
+package genericsSetMap.genericsAndWildcards.application;
 
-import genericsAndWildcards.entities.Circle;
-import genericsAndWildcards.entities.Rectangle;
-import genericsAndWildcards.entities.Shape;
+import genericsSetMap.genericsAndWildcards.entities.Circle;
+import genericsSetMap.genericsAndWildcards.entities.Rectangle;
+import genericsSetMap.genericsAndWildcards.entities.Shape;
 
 import java.util.ArrayList;
 import java.util.List;

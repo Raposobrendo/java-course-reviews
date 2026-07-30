@@ -1,7 +1,7 @@
-package genericsAndWildcards.application;
+package genericsSetMap.genericsAndWildcards.application;
 
-import genericsAndWildcards.entities.Product;
-import genericsAndWildcards.services.CalculationService;
+import genericsSetMap.genericsAndWildcards.entities.Product;
+import genericsSetMap.genericsAndWildcards.services.CalculationService;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

@@ -1,4 +1,4 @@
-package genericsAndWildcards.application;
+package genericsSetMap.genericsAndWildcards.application;
 
 import java.util.ArrayList;
 import java.util.Arrays;

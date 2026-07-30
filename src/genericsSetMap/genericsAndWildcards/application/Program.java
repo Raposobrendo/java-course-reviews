@@ -1,4 +1,4 @@
-package genericsAndWildcards.application;
+package genericsSetMap.genericsAndWildcards.application;
 
 public class Program {
     public static void main(String[] Args){

@@ -1,4 +1,4 @@
-package genericsAndWildcards.entities;
+package genericsSetMap.genericsAndWildcards.entities;
 
 public class Product implements Comparable<Product>{
 

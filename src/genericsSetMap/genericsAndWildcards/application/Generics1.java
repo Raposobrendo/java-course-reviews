@@ -1,6 +1,6 @@
-package genericsAndWildcards.application;
+package genericsSetMap.genericsAndWildcards.application;
 
-import genericsAndWildcards.services.PrintService;
+import genericsSetMap.genericsAndWildcards.services.PrintService;
 
 import java.util.Scanner;
 
