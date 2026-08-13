@@ -15,6 +15,11 @@ public class MapStatement {
 
         cookies.remove("email");
 
+        System.out.println("Cookies contains 'phone' key? " + cookies.containsKey("phone"));
+        System.out.println("Phone number: " + cookies.get("phone"));
+        System.out.println("Email: " + cookies.get("email"));
+        System.out.println("Size: " + cookies.size());
+
         System.out.println("ALL COOKIES: ");
         for(String key : cookies.keySet()){
             System.out.println(key + ": " + cookies.get(key));
