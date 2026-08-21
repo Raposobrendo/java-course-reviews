@@ -1,12 +1,8 @@
-package FunctionalProgrammingLambda.comparator.application;
+package functionalProgrammingLambda.comparator.application;
 
-import FunctionalProgrammingLambda.comparator.entities.MyComparator;
-import FunctionalProgrammingLambda.comparator.entities.Product;
+import functionalProgrammingLambda.comparator.entities.Product;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.List;
+import java.util.*;
 
 public class ComparatorLambda {
     public static void main(String[] Args){
@@ -37,11 +33,15 @@ public class ComparatorLambda {
         */
 
         list.sort(Comparator.comparing(p -> p.getName().toUpperCase()));
+        List<Integer> numbers= Arrays.asList(4, 5, 3, 1, 2);
+        numbers.sort(Comparator.comparing(n -> n));
 
         for(Product p : list){
             System.out.println(p);
         }
 
-
+        for(Integer i : numbers){
+            System.out.println(i);
+        }
     }
 }

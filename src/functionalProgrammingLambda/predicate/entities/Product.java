@@ -1,8 +1,8 @@
-package FunctionalProgrammingLambda.comparator.entities;
+package functionalProgrammingLambda.predicate.entities;
 
 import java.util.Objects;
 
-public class Product{
+public class Product {
     private String name;
     private Double price;
 
@@ -27,16 +27,12 @@ public class Product{
         this.price = price;
     }
 
-    @Override
-    public boolean equals(Object o) {
-        if (o == null || getClass() != o.getClass()) return false;
-        Product product = (Product) o;
-        return Objects.equals(name, product.name) && Objects.equals(price, product.price);
+    public static boolean staticProductPredicate(Product p){
+        return p.getPrice() >= 100.0;
     }
 
-    @Override
-    public int hashCode() {
-        return Objects.hash(name, price);
+    public boolean nonStaticProductPredicate(){
+        return price >= 100.0;
     }
 
     @Override

@@ -1,4 +1,4 @@
-package FunctionalProgrammingLambda.comparator.entities;
+package functionalProgrammingLambda.comparator.entities;
 
 import java.util.Comparator;
 
